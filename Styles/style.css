@@ -1,0 +1,47 @@
+.centered{
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    color:orange;
+    font-size:8vh;
+    font-family:"Ubuntu" ; 
+    font-weight:bold;
+    
+}
+
+.parallax { 
+    background-image:url(../images/paul-volkmer-qVotvbsuM_c-unsplash.jpg);
+    height:100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html {
+    height:100%;
+}
+
+p {
+    font-size: 1.15em;
+    letter-spacing:3px;
+    padding-bottom:60px;
+    line-height:1.5;
+}
+
+#last-paragraph {
+    padding-bottom:125vh;
+}
+
+
+@font-face {
+    font-family: 'Coustard';
+    src:url('../font/Coustard-Regular.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../font/Ubuntu-Bold.ttf') format('ttf');
+}
